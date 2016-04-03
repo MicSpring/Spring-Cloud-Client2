@@ -10,3 +10,11 @@ eureka:
 service:
   authserver:
     serviceID: AUTH-SERVICE
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
