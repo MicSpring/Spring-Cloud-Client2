@@ -1,0 +1,8 @@
+# HTTP Server
+server:
+  port: 0   # HTTP (Tomcat) port
+  contextPath: /clientservice2
+
+spring:
+  application:
+     name: CLIENT-SERVICE2
